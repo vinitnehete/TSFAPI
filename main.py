@@ -10,7 +10,7 @@ app = FastAPI()
 
 def load_model():
     global model
-    model = tf.keras.models.load_model("/Users/vinitnehete/Desktop/TSF/vinit.h5")
+    model = tf.keras.models.load_model("vinit.h5")
     
 
 @app.get("/")
